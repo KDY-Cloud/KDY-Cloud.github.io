@@ -9,8 +9,7 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "plainwhite-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -23,10 +22,10 @@ name                     : "KDY-Cloud"
 description              : "My Footprint"
 url                      : "https://kdy-cloud.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "KDY-Cloud/KDY-CLoud.github.io" 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "My GalaxySpace" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -284,9 +283,12 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
+      date_format: "%Y-%m-%d"
       layout: single
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+      search: true
